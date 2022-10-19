@@ -1,5 +1,5 @@
-import express from 'express'
-import { resolve } from 'path'
+const express = require('express')
+const resolve = require('path')
 
 const app = express()
 
