@@ -7,12 +7,12 @@ export function ChatInfo() {
          <div>
             <div className="flex flex-col items-center text-center">
                <ChatText size={40} weight="fill" />
-               <p className="mt-4 w-[70%] text-xl">Converse a vontade com o nosso Chatbot e tire todas as suas dúvidas que existirem </p>
+               <p className="mt-4 w-[70%] text-xl text-[#0000007a]">Converse a vontade com o nosso Chatbot e tire todas as suas dúvidas. </p>
             </div>
 
             <div className="flex flex-col items-center text-center mt-8">
                <Calendar size={40} weight="fill" />
-               <p className="mt-4 w-[70%] text-xl">Funcionamento de 24 horas por dias em todos os dias da semana</p>
+               <p className="mt-4 w-[70%] text-xl text-[#0000007a]">Funcionamento de 24 horas por dias em todos os dias da semana.</p>
             </div>
          </div>
 		</div>

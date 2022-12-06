@@ -19,10 +19,10 @@ export function ChatArea({ chat, setChat }: ChatAreaProps) {
             <Eraser size={24} weight="fill" className="mr-4" />
                Limpar chat
             </Dialog.Trigger>
-            <Dialog.Trigger className={`bg-color_3 rounded-3xl px-8 py-2 text-xl font-bold hover:bg-[#FFF] duration-300 border-color_3 border-2 hover:text-color_3 button`}>
+            {/* <Dialog.Trigger className={`bg-color_3 rounded-3xl px-8 py-2 text-xl font-bold hover:bg-[#FFF] duration-300 border-color_3 border-2 hover:text-color_3 button`}>
                <DotsThreeVertical size={24} weight="fill" className="mr-4" />
                Mais
-            </Dialog.Trigger>           
+            </Dialog.Trigger>            */}
 			</div>
 
 			<ChatContent chat={chat} setChat={setChat} />

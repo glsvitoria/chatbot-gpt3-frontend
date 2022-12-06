@@ -12,13 +12,13 @@
 }
 
 .chat > div > p {
-   text-align: justify;
    padding: 1rem 1.5rem;
    margin-top: 1rem;
    word-break: break-word;
 }
 
 .userMessage {
+   text-align: right;
    width: 50%;
    margin-left: 42%;
    border-radius: 1rem 0 1rem 1rem;
@@ -28,4 +28,5 @@
    width: 50%;
    margin-left: 8%;
    border-radius: 0 1rem 1rem 1rem;
+   text-align: left;
 }

@@ -12,7 +12,7 @@ export function Header() {
 					<h1 className="font-semibold text-2xl">Chatbot</h1>
 				</div>
 
-				<div className="flex h-full items-center">
+				{/* <div className="flex h-full items-center">
 					<nav className='lg:block hidden'>
 						<ul className="flex text-[#FFF] font-medium text-base w-[480px] justify-around mr-6">
 							<li className="hover:cursor-pointer">Home</li>
@@ -36,7 +36,7 @@ export function Header() {
 							weight="fill"
 						/>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</header>
 	)
