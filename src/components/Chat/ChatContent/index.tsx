@@ -40,7 +40,7 @@ export function ChatContent({ chat, setChat }: Props) {
 		setDisableTextInput(true)
 		setLoading(true)
 
-		api.post('/predict', {
+		api.post('/predict_stellantis', {
 			message: inputText,
 		})
 			.then((r) => {
