@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-   baseURL: "https://chatbot-hub.onrender.com"
+   baseURL: "https://stella-chatbot.herokuapp.com"
 })
 
 export default api
